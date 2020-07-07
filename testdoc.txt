@@ -1,1 +1,694 @@
-testing 23445
+[
+    {
+        "availableToPrimeAt": "2020-07-01T02:49:42.461Z",
+        "createdAt": "2020-07-01T02:49:42.491Z",
+        "eTag": "MjAyMC0wNy0wMVQwMjo0OTo0Mi40OTEzMjZa",
+        "id": "5d4b25bb-eb04-4c03-9a81-ee0398cb779e",
+        "isCanceled": false,
+        "moveOrder": {
+            "confirmationNumber": "8KYH4K",
+            "customer": {
+                "branch": "AIR_FORCE",
+                "currentAddress": {
+                    "city": "",
+                    "eTag": "MDAwMS0wMS0wMVQwMDowMDowMFo=",
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "postalCode": "",
+                    "state": "",
+                    "streetAddress1": ""
+                },
+                "destinationAddress": {
+                    "city": "",
+                    "eTag": "MDAwMS0wMS0wMVQwMDowMDowMFo=",
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "postalCode": "",
+                    "state": "",
+                    "streetAddress1": ""
+                },
+                "dodID": "7146401389",
+                "eTag": "MjAyMC0wNy0wMVQwMjo0OTo0Mi40MzUxMjJa",
+                "email": "LukeSkywalker@mail.com",
+                "firstName": "Luke",
+                "id": "6ac40a00-e762-4f5f-b08d-3ea72a8e4b63",
+                "lastName": "Skywalker",
+                "phone": "212-123-456",
+                "userID": "53f348f1-5137-41a5-ac2d-76d609abfd2d"
+            },
+            "customerID": "6ac40a00-e762-4f5f-b08d-3ea72a8e4b63",
+            "eTag": "MjAyMC0wNy0wMVQwMjo0OTo0Mi40NTc2NDNa",
+            "entitlement": {
+                "authorizedWeight": 16000,
+                "dependentsAuthorized": true,
+                "eTag": "MjAyMC0wNy0wMVQwMjo0OTo0Mi40Mzc0ODNa",
+                "id": "30c09b93-4d7a-4283-a46f-557f193455e2",
+                "nonTemporaryStorage": true,
+                "privatelyOwnedVehicle": true,
+                "proGearWeight": 2000,
+                "proGearWeightSpouse": 500,
+                "storageInTransit": 2,
+                "totalDependents": 1,
+                "totalWeight": 16000
+            },
+            "id": "6fca843a-a87e-4752-b454-0fac67aa4988",
+            "linesOfAccounting": "F8E1",
+            "orderNumber": "ORDER123",
+            "rank": "O_5",
+            "reportByDate": "2020-02-15"
+        },
+        "moveOrderID": "6fca843a-a87e-4752-b454-0fac67aa4988",
+        "mtoShipments": [
+            {
+                "actualPickupDate": "0001-01-01",
+                "agents": [
+                    {
+                        "agentType": "RELEASING_AGENT",
+                        "createdAt": "2020-07-01T02:49:42.788Z",
+                        "email": "test@test.email.com",
+                        "firstName": "Test",
+                        "id": "d73cc488-d5a1-4c9c-bea3-8b02d9bd0dea",
+                        "lastName": "Agent",
+                        "mtoShipmentID": "475579d5-aaa4-4755-8c43-c510381ff9b5",
+                        "updatedAt": "2020-07-01T02:49:42.788Z"
+                    }
+                ],
+                "approvedDate": "0001-01-01",
+                "createdAt": "2020-07-01T02:49:42.739Z",
+                "customerRemarks": "please treat gently",
+                "destinationAddress": {
+                    "city": "Fairfield",
+                    "country": "US",
+                    "eTag": "MjAyMC0wNy0wMVQwMjo0OTo0Mi43MzUzOTla",
+                    "id": "c7ee6e4d-162a-46c4-a1ce-9c17107fbe6c",
+                    "postalCode": "94535",
+                    "state": "CA",
+                    "streetAddress1": "987 Any Avenue",
+                    "streetAddress2": "P.O. Box 9876",
+                    "streetAddress3": "c/o Some Person"
+                },
+                "eTag": "MjAyMC0wNy0wMVQwMjo0OTo0Mi43Mzk3NTda",
+                "firstAvailableDeliveryDate": "0001-01-01",
+                "id": "475579d5-aaa4-4755-8c43-c510381ff9b5",
+                "moveTaskOrderID": "5d4b25bb-eb04-4c03-9a81-ee0398cb779e",
+                "pickupAddress": {
+                    "city": "Beverly Hills",
+                    "country": "US",
+                    "eTag": "MjAyMC0wNy0wMVQwMjo0OTo0Mi43MzM5ODFa",
+                    "id": "7c078a35-9c82-48f6-95a4-4e1643516c5f",
+                    "postalCode": "90210",
+                    "state": "CA",
+                    "streetAddress1": "123 Any Street",
+                    "streetAddress2": "P.O. Box 12345",
+                    "streetAddress3": "c/o Some Person"
+                },
+                "primeActualWeight": 980,
+                "primeEstimatedWeightRecordedDate": "0001-01-01",
+                "requestedPickupDate": "2018-03-15",
+                "requiredDeliveryDate": "0001-01-01",
+                "scheduledPickupDate": "2018-03-16",
+                "secondaryDeliveryAddress": {
+                    "city": "Beverly Hills",
+                    "country": "US",
+                    "eTag": "MjAyMC0wNy0wMVQwMjo0OTo0Mi43MzgzMzZa",
+                    "id": "1054ecc5-175d-4ddf-bcbd-e488287b872a",
+                    "postalCode": "90210",
+                    "state": "CA",
+                    "streetAddress1": "123 Any Street",
+                    "streetAddress2": "P.O. Box 12345",
+                    "streetAddress3": "c/o Some Person"
+                },
+                "secondaryPickupAddress": {
+                    "city": "Beverly Hills",
+                    "country": "US",
+                    "eTag": "MjAyMC0wNy0wMVQwMjo0OTo0Mi43MzY4Wg==",
+                    "id": "36a1dcc6-a47d-459b-9263-966f60893507",
+                    "postalCode": "90210",
+                    "state": "CA",
+                    "streetAddress1": "123 Any Street",
+                    "streetAddress2": "P.O. Box 12345",
+                    "streetAddress3": "c/o Some Person"
+                },
+                "shipmentType": "HHG",
+                "status": "SUBMITTED",
+                "updatedAt": "2020-07-01T02:49:42.739Z"
+            }
+        ],
+        "paymentRequests": [],
+        "ppmType": "PARTIAL",
+        "referenceId": "4325-1258",
+        "updatedAt": "2020-07-01T02:49:42.491Z",
+        "mtoServiceItems": [
+            {
+                "reServiceCode": "DLH",
+                "eTag": "MjAyMC0wNy0wMVQwMjo0OTo0Mi43OTA5OTRa",
+                "id": "9db1bf43-0964-44ff-8384-3297951f6781",
+                "modelType": "MTOServiceItemBasic",
+                "moveTaskOrderID": "5d4b25bb-eb04-4c03-9a81-ee0398cb779e",
+                "mtoShipmentID": "475579d5-aaa4-4755-8c43-c510381ff9b5",
+                "reServiceID": "8d600f25-1def-422d-b159-617c7d59156e",
+                "reServiceName": "Dom. Linehaul",
+                "status": "SUBMITTED"
+            },
+            {
+                "reServiceCode": "DOP",
+                "eTag": "MjAyMC0wNy0wMVQwMjo0OTo0Mi43OTUwMzla",
+                "id": "d886431c-c357-46b7-a084-a0c85dd496d3",
+                "modelType": "MTOServiceItemBasic",
+                "moveTaskOrderID": "5d4b25bb-eb04-4c03-9a81-ee0398cb779e",
+                "mtoShipmentID": "475579d5-aaa4-4755-8c43-c510381ff9b5",
+                "reServiceID": "2bc3e5cb-adef-46b1-bde9-55570bfdd43e",
+                "reServiceName": "Dom. Origin Price",
+                "status": "SUBMITTED"
+            }
+        ]
+    },
+    {
+        "availableToPrimeAt": "2020-07-01T02:49:42.891Z",
+        "createdAt": "2020-07-01T02:49:42.920Z",
+        "eTag": "MjAyMC0wNy0wMVQwMjo0OTo0Mi45MjA4MzZa",
+        "id": "da3f34cc-fb94-4e0b-1c90-ba3333cb7791",
+        "isCanceled": false,
+        "moveOrder": {
+            "confirmationNumber": "KKFK7H",
+            "customer": {
+                "branch": "COAST_GUARD",
+                "currentAddress": {
+                    "city": "",
+                    "eTag": "MDAwMS0wMS0wMVQwMDowMDowMFo=",
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "postalCode": "",
+                    "state": "",
+                    "streetAddress1": ""
+                },
+                "destinationAddress": {
+                    "city": "",
+                    "eTag": "MDAwMS0wMS0wMVQwMDowMDowMFo=",
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "postalCode": "",
+                    "state": "",
+                    "streetAddress1": ""
+                },
+                "dodID": "2239563098",
+                "eTag": "MjAyMC0wNy0wMVQwMjo0OTo0Mi44NjkxMTRa",
+                "email": "HanYoda@mail.com",
+                "firstName": "Han",
+                "id": "6ac40a00-e762-4f5f-b08d-3ea72a8e4b61",
+                "lastName": "Yoda",
+                "phone": "212-123-456",
+                "userID": "4c82fb0f-7cc4-4afa-ac9b-60b366bde684"
+            },
+            "customerID": "6ac40a00-e762-4f5f-b08d-3ea72a8e4b61",
+            "eTag": "MjAyMC0wNy0wMVQwMjo0OTo0Mi44OTAxOTda",
+            "entitlement": {
+                "authorizedWeight": 12000,
+                "dependentsAuthorized": true,
+                "eTag": "MjAyMC0wNy0wMVQwMjo0OTo0Mi44NzA1Wg==",
+                "id": "004b7410-02e2-463f-99c2-c312ec1a5b0e",
+                "nonTemporaryStorage": true,
+                "privatelyOwnedVehicle": true,
+                "proGearWeight": 2000,
+                "proGearWeightSpouse": 500,
+                "storageInTransit": 2,
+                "totalDependents": 1,
+                "totalWeight": 12000
+            },
+            "id": "6fca843a-a87e-4752-b454-0fac67aa4981",
+            "linesOfAccounting": "F8E1",
+            "orderNumber": "ORDER123",
+            "rank": "E_8",
+            "reportByDate": "2020-02-15"
+        },
+        "moveOrderID": "6fca843a-a87e-4752-b454-0fac67aa4981",
+        "mtoShipments": [
+            {
+                "actualPickupDate": "0001-01-01",
+                "agents": [
+                    {
+                        "agentType": "RELEASING_AGENT",
+                        "createdAt": "2020-07-01T02:49:42.966Z",
+                        "email": "test@test.email.com",
+                        "firstName": "Test",
+                        "id": "8bdf196b-1759-49b8-818a-38625133e779",
+                        "lastName": "Agent",
+                        "mtoShipmentID": "6452900f-dc7a-4f61-8e81-4bfa5142ab7f",
+                        "updatedAt": "2020-07-01T02:49:42.966Z"
+                    },
+                    {
+                        "agentType": "RECEIVING_AGENT",
+                        "createdAt": "2020-07-01T02:49:43.004Z",
+                        "email": "test@test.email.com",
+                        "firstName": "Test",
+                        "id": "73c101a1-6e14-4a96-971c-abad9cbe37c1",
+                        "lastName": "Agent",
+                        "mtoShipmentID": "6452900f-dc7a-4f61-8e81-4bfa5142ab7f",
+                        "updatedAt": "2020-07-01T02:49:43.004Z"
+                    }
+                ],
+                "approvedDate": "0001-01-01",
+                "createdAt": "2020-07-01T02:49:42.927Z",
+                "customerRemarks": "please treat gently",
+                "destinationAddress": {
+                    "city": "Fairfield",
+                    "country": "US",
+                    "eTag": "MjAyMC0wNy0wMVQwMjo0OTo0Mi45MjM1MjNa",
+                    "id": "7d6841d8-8696-4b7b-a19a-9799b9c1482a",
+                    "postalCode": "94535",
+                    "state": "CA",
+                    "streetAddress1": "987 Any Avenue",
+                    "streetAddress2": "P.O. Box 9876",
+                    "streetAddress3": "c/o Some Person"
+                },
+                "eTag": "MjAyMC0wNy0wMVQwMjo0OTo0Mi45MjczODZa",
+                "firstAvailableDeliveryDate": "0001-01-01",
+                "id": "6452900f-dc7a-4f61-8e81-4bfa5142ab7f",
+                "moveTaskOrderID": "da3f34cc-fb94-4e0b-1c90-ba3333cb7791",
+                "pickupAddress": {
+                    "city": "Beverly Hills",
+                    "country": "US",
+                    "eTag": "MjAyMC0wNy0wMVQwMjo0OTo0Mi45MjIyNjRa",
+                    "id": "df186a66-f114-4fb3-a798-1627b4b60242",
+                    "postalCode": "90210",
+                    "state": "CA",
+                    "streetAddress1": "123 Any Street",
+                    "streetAddress2": "P.O. Box 12345",
+                    "streetAddress3": "c/o Some Person"
+                },
+                "primeActualWeight": 980,
+                "primeEstimatedWeightRecordedDate": "0001-01-01",
+                "requestedPickupDate": "2018-03-15",
+                "requiredDeliveryDate": "0001-01-01",
+                "scheduledPickupDate": "2018-03-16",
+                "secondaryDeliveryAddress": {
+                    "city": "Beverly Hills",
+                    "country": "US",
+                    "eTag": "MjAyMC0wNy0wMVQwMjo0OTo0Mi45MjYwNTla",
+                    "id": "ca94792d-a033-4481-aa65-d6dcd544c655",
+                    "postalCode": "90210",
+                    "state": "CA",
+                    "streetAddress1": "123 Any Street",
+                    "streetAddress2": "P.O. Box 12345",
+                    "streetAddress3": "c/o Some Person"
+                },
+                "secondaryPickupAddress": {
+                    "city": "Beverly Hills",
+                    "country": "US",
+                    "eTag": "MjAyMC0wNy0wMVQwMjo0OTo0Mi45MjQ3ODRa",
+                    "id": "98f55c74-260e-492b-b7db-50d26c998c84",
+                    "postalCode": "90210",
+                    "state": "CA",
+                    "streetAddress1": "123 Any Street",
+                    "streetAddress2": "P.O. Box 12345",
+                    "streetAddress3": "c/o Some Person"
+                },
+                "shipmentType": "HHG",
+                "status": "SUBMITTED",
+                "updatedAt": "2020-07-01T02:49:42.927Z"
+            },
+            {
+                "actualPickupDate": "0001-01-01",
+                "agents": [
+                    {
+                        "agentType": "RELEASING_AGENT",
+                        "createdAt": "2020-07-01T02:49:43.051Z",
+                        "email": "test@test.email.com",
+                        "firstName": "Test",
+                        "id": "e94cb273-36cd-49ae-87d4-792651848a70",
+                        "lastName": "Agent",
+                        "mtoShipmentID": "53a23df5-3b2b-4163-a777-137dd262b562",
+                        "updatedAt": "2020-07-01T02:49:43.051Z"
+                    },
+                    {
+                        "agentType": "RECEIVING_AGENT",
+                        "createdAt": "2020-07-01T02:49:43.090Z",
+                        "email": "test@test.email.com",
+                        "firstName": "Test",
+                        "id": "80dce8dc-af41-4e68-9216-aa5064eaf108",
+                        "lastName": "Agent",
+                        "mtoShipmentID": "53a23df5-3b2b-4163-a777-137dd262b562",
+                        "updatedAt": "2020-07-01T02:49:43.090Z"
+                    }
+                ],
+                "approvedDate": "0001-01-01",
+                "createdAt": "2020-07-01T02:49:43.011Z",
+                "customerRemarks": "please treat gently",
+                "destinationAddress": {
+                    "city": "Fairfield",
+                    "country": "US",
+                    "eTag": "MjAyMC0wNy0wMVQwMjo0OTo0My4wMDc2Njha",
+                    "id": "94d9307b-9f6e-4f09-8d82-2a5853708671",
+                    "postalCode": "94535",
+                    "state": "CA",
+                    "streetAddress1": "987 Any Avenue",
+                    "streetAddress2": "P.O. Box 9876",
+                    "streetAddress3": "c/o Some Person"
+                },
+                "eTag": "MjAyMC0wNy0wMVQwMjo0OTo0My4wMTE4NDla",
+                "firstAvailableDeliveryDate": "0001-01-01",
+                "id": "53a23df5-3b2b-4163-a777-137dd262b562",
+                "moveTaskOrderID": "da3f34cc-fb94-4e0b-1c90-ba3333cb7791",
+                "pickupAddress": {
+                    "city": "Beverly Hills",
+                    "country": "US",
+                    "eTag": "MjAyMC0wNy0wMVQwMjo0OTo0My4wMDYzNzRa",
+                    "id": "6442dc53-aff7-4b8b-80ff-772c7100f6ed",
+                    "postalCode": "90210",
+                    "state": "CA",
+                    "streetAddress1": "123 Any Street",
+                    "streetAddress2": "P.O. Box 12345",
+                    "streetAddress3": "c/o Some Person"
+                },
+                "primeActualWeight": 980,
+                "primeEstimatedWeightRecordedDate": "0001-01-01",
+                "requestedPickupDate": "2018-03-15",
+                "requiredDeliveryDate": "0001-01-01",
+                "scheduledPickupDate": "2018-03-16",
+                "secondaryDeliveryAddress": {
+                    "city": "Beverly Hills",
+                    "country": "US",
+                    "eTag": "MjAyMC0wNy0wMVQwMjo0OTo0My4wMTAzMzda",
+                    "id": "eed6bdd0-4ed5-4ace-9f22-7c607a8d4571",
+                    "postalCode": "90210",
+                    "state": "CA",
+                    "streetAddress1": "123 Any Street",
+                    "streetAddress2": "P.O. Box 12345",
+                    "streetAddress3": "c/o Some Person"
+                },
+                "secondaryPickupAddress": {
+                    "city": "Beverly Hills",
+                    "country": "US",
+                    "eTag": "MjAyMC0wNy0wMVQwMjo0OTo0My4wMDkwNjla",
+                    "id": "ef472087-f052-4e4d-87aa-511de1888256",
+                    "postalCode": "90210",
+                    "state": "CA",
+                    "streetAddress1": "123 Any Street",
+                    "streetAddress2": "P.O. Box 12345",
+                    "streetAddress3": "c/o Some Person"
+                },
+                "shipmentType": "HHG",
+                "status": "SUBMITTED",
+                "updatedAt": "2020-07-01T02:49:43.011Z"
+            },
+            {
+                "actualPickupDate": "0001-01-01",
+                "approvedDate": "0001-01-01",
+                "createdAt": "2020-07-01T02:49:43.097Z",
+                "customerRemarks": "please treat gently",
+                "destinationAddress": {
+                    "city": "Fairfield",
+                    "country": "US",
+                    "eTag": "MjAyMC0wNy0wMVQwMjo0OTo0My4wOTMyMzJa",
+                    "id": "ae219d6a-02bf-4d51-ba98-b51080905057",
+                    "postalCode": "94535",
+                    "state": "CA",
+                    "streetAddress1": "987 Any Avenue",
+                    "streetAddress2": "P.O. Box 9876",
+                    "streetAddress3": "c/o Some Person"
+                },
+                "eTag": "MjAyMC0wNy0wMVQwMjo0OTo0My4wOTcxNFo=",
+                "firstAvailableDeliveryDate": "0001-01-01",
+                "id": "d7e52417-577a-4e4c-b4f1-9d9f8cad2da2",
+                "moveTaskOrderID": "da3f34cc-fb94-4e0b-1c90-ba3333cb7791",
+                "pickupAddress": {
+                    "city": "Beverly Hills",
+                    "country": "US",
+                    "eTag": "MjAyMC0wNy0wMVQwMjo0OTo0My4wOTE5OTFa",
+                    "id": "b77cad7d-625c-4ad2-8b0d-17c390871fa8",
+                    "postalCode": "90210",
+                    "state": "CA",
+                    "streetAddress1": "123 Any Street",
+                    "streetAddress2": "P.O. Box 12345",
+                    "streetAddress3": "c/o Some Person"
+                },
+                "primeActualWeight": 980,
+                "primeEstimatedWeightRecordedDate": "0001-01-01",
+                "requestedPickupDate": "2018-03-15",
+                "requiredDeliveryDate": "0001-01-01",
+                "scheduledPickupDate": "2018-03-16",
+                "secondaryDeliveryAddress": {
+                    "city": "Beverly Hills",
+                    "country": "US",
+                    "eTag": "MjAyMC0wNy0wMVQwMjo0OTo0My4wOTU3MDVa",
+                    "id": "e155def1-3c21-46c9-97dc-4d9be8252084",
+                    "postalCode": "90210",
+                    "state": "CA",
+                    "streetAddress1": "123 Any Street",
+                    "streetAddress2": "P.O. Box 12345",
+                    "streetAddress3": "c/o Some Person"
+                },
+                "secondaryPickupAddress": {
+                    "city": "Beverly Hills",
+                    "country": "US",
+                    "eTag": "MjAyMC0wNy0wMVQwMjo0OTo0My4wOTQ0OTZa",
+                    "id": "8be2b602-b86e-4428-91e4-7c43c6ec699b",
+                    "postalCode": "90210",
+                    "state": "CA",
+                    "streetAddress1": "123 Any Street",
+                    "streetAddress2": "P.O. Box 12345",
+                    "streetAddress3": "c/o Some Person"
+                },
+                "shipmentType": "HHG",
+                "status": "SUBMITTED",
+                "updatedAt": "2020-07-01T02:49:43.097Z"
+            }
+        ],
+        "paymentRequests": [],
+        "ppmType": "PARTIAL",
+        "referenceId": "9042-6585",
+        "updatedAt": "2020-07-01T02:49:42.920Z",
+        "mtoServiceItems": [
+            {
+                "reServiceCode": "STEST",
+                "eTag": "MjAyMC0wNy0wMVQwMjo0OTo0My4xMDk2Nlo=",
+                "id": "8a625314-1922-4987-93c5-a62c0d13f053",
+                "modelType": "MTOServiceItemBasic",
+                "moveTaskOrderID": "da3f34cc-fb94-4e0b-1c90-ba3333cb7791",
+                "mtoShipmentID": "d7e52417-577a-4e4c-b4f1-9d9f8cad2da2",
+                "reServiceID": "2cae9d5c-f124-4377-a9f7-fffd80e0a541",
+                "reServiceName": "Test Service",
+                "status": "SUBMITTED"
+            },
+            {
+                "reServiceCode": "DSH",
+                "eTag": "MjAyMC0wNy0wMVQwMjo0OTo0My4xMTE1NDRa",
+                "id": "3624d82f-fa87-47f5-a09a-2d5639e45c02",
+                "modelType": "MTOServiceItemBasic",
+                "moveTaskOrderID": "da3f34cc-fb94-4e0b-1c90-ba3333cb7791",
+                "mtoShipmentID": "53a23df5-3b2b-4163-a777-137dd262b562",
+                "reServiceID": "4b85962e-25d3-4485-b43c-2497c4365598",
+                "reServiceName": "Dom. Shorthaul",
+                "status": "SUBMITTED"
+            }
+        ]
+    },
+    {
+        "availableToPrimeAt": "2020-07-01T02:49:43.113Z",
+        "createdAt": "2020-07-01T02:49:43.142Z",
+        "eTag": "MjAyMC0wNy0wMVQwMjo0OTo0My4xNDI1NVo=",
+        "id": "9c7b255c-2981-4bf8-839f-61c7458e2b4d",
+        "isCanceled": false,
+        "moveOrder": {
+            "confirmationNumber": "F937QX",
+            "customer": {
+                "branch": "AIR_FORCE",
+                "currentAddress": {
+                    "city": "",
+                    "eTag": "MDAwMS0wMS0wMVQwMDowMDowMFo=",
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "postalCode": "",
+                    "state": "",
+                    "streetAddress1": ""
+                },
+                "destinationAddress": {
+                    "city": "",
+                    "eTag": "MDAwMS0wMS0wMVQwMDowMDowMFo=",
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "postalCode": "",
+                    "state": "",
+                    "streetAddress1": ""
+                },
+                "dodID": "2712960501",
+                "eTag": "MjAyMC0wNy0wMVQwMjo0OTo0My4xMTc0Mzla",
+                "email": "LukeKenobi@mail.com",
+                "firstName": "Luke",
+                "id": "1ed895ee-3ed4-4955-88ee-ccb813763d9e",
+                "lastName": "Kenobi",
+                "phone": "212-123-456",
+                "userID": "d41bed38-12d0-4f7e-b245-4cdf775c189b"
+            },
+            "customerID": "1ed895ee-3ed4-4955-88ee-ccb813763d9e",
+            "eTag": "MjAyMC0wNy0wMVQwMjo0OTo0My4xMzk2NDVa",
+            "entitlement": {
+                "authorizedWeight": 12500,
+                "dependentsAuthorized": true,
+                "eTag": "MjAyMC0wNy0wMVQwMjo0OTo0My4xMTg5OTJa",
+                "id": "6e8d00b7-fff0-4450-bee3-5c61a64d1eda",
+                "nonTemporaryStorage": true,
+                "privatelyOwnedVehicle": true,
+                "proGearWeight": 2000,
+                "proGearWeightSpouse": 500,
+                "storageInTransit": 2,
+                "totalDependents": 1,
+                "totalWeight": 12500
+            },
+            "id": "baa6ee5c-46ed-490f-b411-110b691e31ac",
+            "linesOfAccounting": "F8E1",
+            "orderNumber": "ORDER123",
+            "rank": "O_2",
+            "reportByDate": "2020-02-15"
+        },
+        "moveOrderID": "baa6ee5c-46ed-490f-b411-110b691e31ac",
+        "mtoShipments": [
+            {
+                "actualPickupDate": "0001-01-01",
+                "approvedDate": "0001-01-01",
+                "createdAt": "2020-07-01T02:49:43.149Z",
+                "customerRemarks": "please treat gently",
+                "destinationAddress": {
+                    "city": "Fairfield",
+                    "country": "US",
+                    "eTag": "MjAyMC0wNy0wMVQwMjo0OTo0My4xNDU0Mjha",
+                    "id": "a95146a4-ab24-4101-8aeb-5a66ffa9da08",
+                    "postalCode": "94535",
+                    "state": "CA",
+                    "streetAddress1": "987 Any Avenue",
+                    "streetAddress2": "P.O. Box 9876",
+                    "streetAddress3": "c/o Some Person"
+                },
+                "eTag": "MjAyMC0wNy0wMVQwMjo0OTo0My4xNDk4NzVa",
+                "firstAvailableDeliveryDate": "0001-01-01",
+                "id": "f8cc401d-0c6d-4828-82fd-f3ddc581a6ff",
+                "moveTaskOrderID": "9c7b255c-2981-4bf8-839f-61c7458e2b4d",
+                "pickupAddress": {
+                    "city": "Beverly Hills",
+                    "country": "US",
+                    "eTag": "MjAyMC0wNy0wMVQwMjo0OTo0My4xNDQwMjda",
+                    "id": "a07f30d8-50b6-421a-a2de-e4ebcc3317ea",
+                    "postalCode": "90210",
+                    "state": "CA",
+                    "streetAddress1": "123 Any Street",
+                    "streetAddress2": "P.O. Box 12345",
+                    "streetAddress3": "c/o Some Person"
+                },
+                "primeActualWeight": 980,
+                "primeEstimatedWeightRecordedDate": "0001-01-01",
+                "requestedPickupDate": "2018-03-15",
+                "requiredDeliveryDate": "0001-01-01",
+                "scheduledPickupDate": "2018-03-16",
+                "secondaryDeliveryAddress": {
+                    "city": "Beverly Hills",
+                    "country": "US",
+                    "eTag": "MjAyMC0wNy0wMVQwMjo0OTo0My4xNDgzMDda",
+                    "id": "bff16e0c-48f1-42e5-908e-5ccb08ab4688",
+                    "postalCode": "90210",
+                    "state": "CA",
+                    "streetAddress1": "123 Any Street",
+                    "streetAddress2": "P.O. Box 12345",
+                    "streetAddress3": "c/o Some Person"
+                },
+                "secondaryPickupAddress": {
+                    "city": "Beverly Hills",
+                    "country": "US",
+                    "eTag": "MjAyMC0wNy0wMVQwMjo0OTo0My4xNDY3Njda",
+                    "id": "d638d06d-11ea-4970-8f1c-66adca1e82de",
+                    "postalCode": "90210",
+                    "state": "CA",
+                    "streetAddress1": "123 Any Street",
+                    "streetAddress2": "P.O. Box 12345",
+                    "streetAddress3": "c/o Some Person"
+                },
+                "shipmentType": "HHG",
+                "status": "SUBMITTED",
+                "updatedAt": "2020-07-01T02:49:43.149Z"
+            },
+            {
+                "actualPickupDate": "0001-01-01",
+                "approvedDate": "0001-01-01",
+                "createdAt": "2020-07-01T02:49:43.159Z",
+                "customerRemarks": "please treat gently",
+                "destinationAddress": {
+                    "city": "Fairfield",
+                    "country": "US",
+                    "eTag": "MjAyMC0wNy0wMVQwMjo0OTo0My4xNTUwNFo=",
+                    "id": "f7a02848-eb24-4f30-8240-bf8733f0e76d",
+                    "postalCode": "94535",
+                    "state": "CA",
+                    "streetAddress1": "987 Any Avenue",
+                    "streetAddress2": "P.O. Box 9876",
+                    "streetAddress3": "c/o Some Person"
+                },
+                "eTag": "MjAyMC0wNy0wMVQwMjo0OTo0My4xNTk2Mjda",
+                "firstAvailableDeliveryDate": "0001-01-01",
+                "id": "f38aa11b-c0f6-4f10-bb87-5829c9a6890a",
+                "moveTaskOrderID": "9c7b255c-2981-4bf8-839f-61c7458e2b4d",
+                "pickupAddress": {
+                    "city": "Beverly Hills",
+                    "country": "US",
+                    "eTag": "MjAyMC0wNy0wMVQwMjo0OTo0My4xNTM1Njha",
+                    "id": "48a154a0-f9de-4174-bea5-640ac7d1afd0",
+                    "postalCode": "90210",
+                    "state": "CA",
+                    "streetAddress1": "123 Any Street",
+                    "streetAddress2": "P.O. Box 12345",
+                    "streetAddress3": "c/o Some Person"
+                },
+                "primeActualWeight": 980,
+                "primeEstimatedWeightRecordedDate": "0001-01-01",
+                "requestedPickupDate": "2018-03-15",
+                "requiredDeliveryDate": "0001-01-01",
+                "scheduledPickupDate": "2018-03-16",
+                "secondaryDeliveryAddress": {
+                    "city": "Beverly Hills",
+                    "country": "US",
+                    "eTag": "MjAyMC0wNy0wMVQwMjo0OTo0My4xNTc5Mzda",
+                    "id": "4de7ac57-ebda-428a-9253-0614cfad528f",
+                    "postalCode": "90210",
+                    "state": "CA",
+                    "streetAddress1": "123 Any Street",
+                    "streetAddress2": "P.O. Box 12345",
+                    "streetAddress3": "c/o Some Person"
+                },
+                "secondaryPickupAddress": {
+                    "city": "Beverly Hills",
+                    "country": "US",
+                    "eTag": "MjAyMC0wNy0wMVQwMjo0OTo0My4xNTY1MzVa",
+                    "id": "bf95b9e8-f2e8-4471-b920-38ff6d1016e4",
+                    "postalCode": "90210",
+                    "state": "CA",
+                    "streetAddress1": "123 Any Street",
+                    "streetAddress2": "P.O. Box 12345",
+                    "streetAddress3": "c/o Some Person"
+                },
+                "shipmentType": "HHG",
+                "status": "SUBMITTED",
+                "updatedAt": "2020-07-01T02:49:43.159Z"
+            }
+        ],
+        "paymentRequests": [],
+        "ppmType": "PARTIAL",
+        "referenceId": "1918-4074",
+        "updatedAt": "2020-07-01T02:49:43.142Z",
+        "mtoServiceItems": [
+            {
+                "reServiceCode": "MS",
+                "eTag": "MjAyMC0wNy0wMVQwMjo0OTo0My4xNTE2ODla",
+                "id": "76055c99-0990-410c-a7c9-69373b0b53eb",
+                "modelType": "MTOServiceItemBasic",
+                "moveTaskOrderID": "9c7b255c-2981-4bf8-839f-61c7458e2b4d",
+                "mtoShipmentID": "f8cc401d-0c6d-4828-82fd-f3ddc581a6ff",
+                "reServiceID": "1130e612-94eb-49a7-973d-72f33685e551",
+                "reServiceName": "Shipment Mgmt. Services",
+                "status": "SUBMITTED"
+            },
+            {
+                "reServiceCode": "CS",
+                "eTag": "MjAyMC0wNy0wMVQwMjo0OTo0My4xNjE1NjZa",
+                "id": "05fbfad0-731f-4342-87e9-abe55566bb63",
+                "modelType": "MTOServiceItemBasic",
+                "moveTaskOrderID": "9c7b255c-2981-4bf8-839f-61c7458e2b4d",
+                "mtoShipmentID": "f38aa11b-c0f6-4f10-bb87-5829c9a6890a",
+                "reServiceID": "9dc919da-9b66-407b-9f17-05c0f03fcb50",
+                "reServiceName": "Counseling Services",
+                "status": "SUBMITTED"
+            }
+        ]
+    }
+]
